@@ -30,3 +30,12 @@ This repository contains C++ programs on various topics.
 - This is begineer's friendly repository, so if you make mistake in making a `pull request`(PR), members of WIE will help you out.
 - No repetition of programs will be entertained.
 - So go ahead make your first PR.
+
+
+## Steps for Contributing
+
+    Star the repo
+    Fork the repo
+    Add the codes inside the appropriate folder
+    Commit the code
+    Make a Pull Request 
