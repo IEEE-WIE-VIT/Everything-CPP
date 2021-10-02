@@ -32,10 +32,3 @@ This repository contains C++ programs on various topics.
 - So go ahead make your first PR.
 
 
-## Steps for Contributing
-
-    Star the repo
-    Fork the repo
-    Add the codes inside the appropriate folder
-    Commit the code
-    Make a Pull Request 
