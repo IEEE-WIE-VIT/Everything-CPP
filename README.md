@@ -15,6 +15,14 @@ This repository contains C++ programs on various topics.
 
 - It is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
 
+# Register Here-
+https://hacktoberfest.digitalocean.com/ 
+
+# Get more information from-
+
+https://opensource.com/resources.
+https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source
+
 ### What is open source?
 - It's never been easy to learn programming. But despite tons of ways to learn how to code, it is believed that the best way to improve your skills is by contributing to open source projects.
 
