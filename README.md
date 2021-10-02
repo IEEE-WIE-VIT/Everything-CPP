@@ -39,4 +39,5 @@ https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-s
 - No repetition of programs will be entertained.
 - So go ahead make your first PR.
 
+Check out the CONTRIBUTE.md file for detailed steps for making a PR!
 
