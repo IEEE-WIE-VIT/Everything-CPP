@@ -1,3 +1,4 @@
+//matrix chain multiplication
 #include <bits/stdc++.h>
 using namespace std;
 void printParenthesis(int i, int j, int n, int* bracket,char& name){
