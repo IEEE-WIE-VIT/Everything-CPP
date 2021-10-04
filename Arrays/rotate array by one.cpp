@@ -1,12 +1,6 @@
 # include <iostream>
 using namespace std;
 
-void rotate(int arr[], int n)
-{
-
-}
-
-// Driver code
 int main()
 {
      int n;
