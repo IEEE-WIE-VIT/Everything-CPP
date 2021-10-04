@@ -1,4 +1,4 @@
-// Seive of Eratosthenes
+// Sieve of Eratosthenes
 // Checking all prime numbers between 0 to 1e9 in constant time i.e 1e9
 
 #include <bits/stdc++.h>
