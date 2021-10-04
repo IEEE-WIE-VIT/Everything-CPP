@@ -5,7 +5,7 @@
 ### Definition
 A linked list is a set of dynamically allocated nodes, arranged in such a way that each node contains one value and one pointer. The pointer always points to the next member of the list. Linked lists function as an array that can grow and shrink as needed, from any point in the array. A linked list is a linear data structure used for storing data or collection of data.
 
-Linked list Image
+<img align="centre" alt="Linked List" width="100%" src="https://github.com/A-GHOSH-dev/Everything-CPP/blob/new-user/Assets/linked-list-concept-1.png" />
 
 ## Why need a linked list?
 
@@ -33,18 +33,21 @@ We often face situations, where the data is dynamic in nature and number of data
 ### Singly Linked List
 A node in the singly linked list consist of two parts: data part and link part. Data part of the node stores actual information that is to be represented by the node while the link part of the node stores the address of its immediate successor. Singly linked list can be traversed only in one direction. In other words, we can say that each node contains only next pointer, therefore we can not traverse the list in the reverse direction.
 
-Image
+<img align="centre" alt="Singly Linked List" width="100%" src="https://github.com/A-GHOSH-dev/Everything-CPP/blob/new-user/Assets/single-linked-list.png" />
 
 ### Doubly Linked List
 Doubly linked list is a complex type of linked list in which a node contains a pointer to the previous as well as the next node in the sequence. Therefore, in a doubly linked list, a node consists of three parts: node data, pointer to the next node in sequence (next pointer) , pointer to the previous node (previous pointer). 
 
-Image
+<img align="centre" alt="doubly Linked List" width="100%" src="https://github.com/A-GHOSH-dev/Everything-CPP/blob/new-user/Assets/doubly-linked-list.png" />
+
 
 ### Singly and Doubly Circular Linked List
 Circular Linked List is a variation of Linked list in which the first element points to the last element and the last element points to the first element. The last link's next points to the first link of the list in both cases of singly as well as doubly linked list.The first link's previous points to the last of the list in case of doubly linked list.
 
-Image 1
-Image 2
+<img align="centre" alt="Singly Circular Linked List" width="100%" src="https://github.com/A-GHOSH-dev/Everything-CPP/blob/new-user/Assets/singly_circular_linked_list.png" />
+
+<img align="centre" alt="Doubly Circular Linked List" width="100%" src="https://github.com/A-GHOSH-dev/Everything-CPP/blob/new-user/Assets/doubly_circular_linked_list.jpg" />
+
 
 ## Operations in Linked List
 
