@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+ // } Driver Code Ends
+// User function Template for C++
+
+class Solution{
+public:
+    vector<int> nextPermutation(int N, vector<int> arr){
+        // cod{
+        int index = -1;
+        
+        for(int i = N - 1; i >= 1; i--)
+        {
+            if(arr[i - 1] < arr[i])
+            {
+                index = i - 1;
+                
+                break;
+            }
+        }
+        
+        if(index == -1)
+        {
+            reverse(arr.begin(), arr.end());
+            
+            return arr;
+        }
+        
+        auto it = lower_bound(arr.rbegin(), arr.rend() - index, arr[index]);
+        
+        swap(arr[index], *it);
+        
+        reverse(arr.begin() + index + 1, arr.end());
+                
+        return arr;
+//e here
+    }
+};
+
+// { Driver Code Starts.
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int N;
+        cin>>N;
+        vector<int> arr(N);
+        for(int i = 0;i < N;i++)
+            cin>>arr[i];
+        
+        Solution ob;
+        vector<int> ans = ob.nextPermutation(N, arr);
+        for(int u: ans)
+            cout<<u<<" ";
+        cout<<"\n";
+    }
+    return 0;
+}  // } Driver
