@@ -16,7 +16,7 @@ vector<int>v;
 stack<int>s;
 int arr[5]={4,5,2,10,8};
 int size=sizeof(arr)/sizeof(arr[0]);
-for(int i=size-1;i>=0;i--)
+for(int i=0;i<=size-1;i++)
 {
     if(s.size()==0)
     {
