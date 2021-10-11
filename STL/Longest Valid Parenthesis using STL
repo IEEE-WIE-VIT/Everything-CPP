@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+#include<stack>
+class Solution
+{
+    public:
+    int longestValidParenthesis(string s)
+    {
+        stack<char>ct;
+        stack<int>index;
+        index.push(-1);
+        int max=0;
+        for(int i=0;i<s.length();i++)
+        {
+            if(s.at(i)=='(')
+            {
+                ct.push('(');
+                index.push('i');
+            }
+            else{
+               if( !ct.empty() && ct.top()=='(')
+                {
+                    ct.pop();
+                    index.pop();
+                    max=std::max(max,i-index.top());
+                }
+                else{
+                    index.push(i);
+                }
+            }
+        }
+        return max;
+    }
+};
+int main()
+{
+    string s;
+    s="()()()((()";
+    int output;
+    Solution p;
+    p.longestValidParenthesis(s);
+    output=p.longestValidParenthesis(s);
+    cout<<"longest valid Parenthesis is:"<<output<<endl;
+}
