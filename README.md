@@ -1,7 +1,7 @@
 # Everything-C++
-Contribute all levels of C++ related codes for Hacktoberfest 2021!
+Contribute all levels of C++ related codes for Hacktoberfest 2022!
 
-![image](https://user-images.githubusercontent.com/68536395/135710275-a50654e0-0f05-4de7-b7df-433b63650e7a.png)
+![image](https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F362598579%2F1173638640953%2F1%2Foriginal.20220928-014915?w=1000&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C4320%2C2160&s=3a7a17c023f469b900297607721d1e2c)
 
 
 ## About
